@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-color: aqua;
+    height: 500px;
+    background-image: url(image-hero.jpg);
+    /* background-position: center-bottom; */
+    background-size: cover;
+}
+ .demi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 40px;
+ }
+ .demi ul{
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     margin: 100px;
+     width: 400px;
+ }
+ .demi img{
+    margin-left: 100px;
+ }
+ .demi ul a{
+    color: white;
+    text-decoration: none;
+ }
+ .demi ul a  :hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color:white;
+
+ }
+ .text{
+    border: 2px solid white;
+    height: 30%;
+    align-items: center;
+    letter-spacing: 0.3em;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+   padding-top: 2em;
+   width: 26%;
+   padding-left: 20px;
+  
+
+ }
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    padding: 150px;
+    position: static;
+}
+
+.text-container{
+    margin-top: 20em;
+    background-color: white;
+    height: 300px;
+    position: relative;
+    bottom: 100px;
+    right:10em;
+    width: 360px;
+    margin-right: 60%;
+    text-align: center;
+    padding: 50px;
+
+    
+}
+
+.text3{
+    display: flex;
+    text-align: justify;
+    color: rgb(113, 106, 106);
+}
+.text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 12px;
+}
+.creation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.3em;
+}
+.btn{
+    padding: 15px;
+    color: aliceblue;
+    background-color: black;
+    border-color: black;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.3em;
+}
+.deep{
+    background-image: url(image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.night{
+    background-image: url(image-night-arcade.jpg);
+    background-repeat: no-repeat;
+}
+.soccer{
+    background-image: url(image-soccer-team.jpg);
+    background-repeat: no-repeat;
+}
+.gride{
+    background-image: url(image-grid.jpg);
+    background-repeat: no-repeat;
+}
+.up{
+    background-image: url(image-from-above.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.pocket{
+    background-image: url(image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+}
+.curiosity{
+    background-image: url(image-curiosity.jpg);
+    background-repeat: no-repeat;
+}
+.make{
+    background-image: url(image-fisheye.jpg);
+    background-repeat: no-repeat;
+    
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 2px solid black; */
+    padding: 10%;
+    height: 950px;
+     margin-top: -5%;
+     position: relative;
+     text-align: center;
+     color: aliceblue;
+}
+.night h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.deep h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.soccer h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.gride h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.up h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.pocket h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.curiosity h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+.make h2{
+    padding-top :16em;
+    padding-left: 1em;
+    text-align: justify;
+}
+ .section4{
+    background-color: black;
+    height: 300px;
+ }
+
+ .topfooter{
+  display: flex;
+ }
+ 
+ .logo-icon {
+    padding-left: 70%;
+    
+ }
+ .logo-icon {
+  word-spacing: 1em;
+ }
+ .logo-icon img :hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color:white;
+
+ }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer h4{
+    color: aliceblue;
+  }
+  .footer ul a{
+    text-decoration: none;
+    color: aliceblue;
+
+  }
+
+  .footer ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-left: 50px;
+
+  }
+  .footer h4{
+    margin-right: 100px;
+  }
+  .topfooter{
+    padding: 50px;
+
+  }
+  .footer ul a  :hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color:white;
+
+ }
